@@ -1,8 +1,0 @@
-font-family: 'Poppins', sans-serif;
-Default Color Change default color Orange and Costomize and All Name Change 
-Screenshoot navbar problem background Black Auto
-Price Section a button border color change
-FAQ section Problem
-Testimonial dots problem
-
-
