@@ -1,5 +1,5 @@
 /*
-Theme Name: Name Multipurpose HTML Template
+Theme Name: UCODE HTML Template
 Author: Md. Mazba Uddin Shawon
 Gmail: mazbauddin2010@gmail.com
 Description: Creative HTML5 Responsive Landing Page
@@ -1552,9 +1552,9 @@ b {
 
 .footer-social-media ul li a {
   background: transparent;
-  border: 1px solid #3eedb7;
+  border: 1px solid #000000;
   border-radius: 10px 0;
-  color: #3eedb7;
+  color: #000000;
   display: inline-block;
   font-size: 20px;
   height: 35px;
@@ -1569,8 +1569,8 @@ b {
 .footer-social-media ul li:hover > a {
   -webkit-box-shadow: 3px 4px 14px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 4px 14px -1px rgba(62, 237, 183, 0.75);
-  border: 1px solid #3eedb7;
-  background: #3eedb7;
+  border: 1px solid #ffffff;
+  background: #000000;
   color: #fff;
 }
 
@@ -1631,8 +1631,8 @@ b {
   color: #ff1a00;
 }
 
-/*new footer*/
 /*footer area end*/
+
 /*color-picker start*/
 
 .box {
@@ -2076,6 +2076,7 @@ b {
 }
 
 /*color-picker end*/
+
 /*back to top area start*/
 .back-to-top {
   bottom: 83px;
