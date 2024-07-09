@@ -484,7 +484,7 @@ b {
 }
 
 .menubar ul li ul.submenu {
-  background: #fff none repeat scroll 0 0;
+  background: #000000 none repeat scroll 0 0;
   opacity: 0;
   position: absolute;
   top: 110%;
@@ -504,11 +504,11 @@ b {
 .menubar ul li ul.submenu li {
   display: block;
   margin: 0;
-  border-bottom: 1px solid #484646;
+  border-bottom: 1px solid #f7f7f7;
 }
 
 .menubar ul li ul.submenu li a {
-  color: #000;
+  color: #ffffff;
   display: block;
   text-align: left;
   line-height: 50px;
@@ -516,7 +516,7 @@ b {
 }
 
 .menubar ul li ul.submenu li:hover > a {
-  color: #3eedb7;
+  color: #2991f3;
 }
 
 .menubar ul li ul.submenu li:last-child {
@@ -1569,7 +1569,7 @@ b {
 .footer-social-media ul li:hover > a {
   -webkit-box-shadow: 3px 4px 14px -1px rgba(0, 0, 0, 0.75);
   box-shadow: 3px 4px 14px -1px rgba(0, 0, 0, 0.75);
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   background: #000000;
   color: #fff;
 }
