@@ -872,7 +872,7 @@ b {
 .video-icon a i:hover {
   color: #ff2727;
   background: #fff;
-  border: 10px solid #1a5feb;
+  border: 10px solid #3777f8;
 }
 
 /*circle wave video attached*/
@@ -1054,8 +1054,8 @@ b {
 }
 
 .single-team .social-icon li a:hover {
-  background: #fff;
-  color: #3eedb7;
+  /* background: #fff; */
+  color: #f5550b;
   -webkit-transform: rotate(-360deg);
   transform: rotate(-360deg);
 }
