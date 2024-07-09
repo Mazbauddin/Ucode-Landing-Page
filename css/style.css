@@ -1568,7 +1568,7 @@ b {
 
 .footer-social-media ul li:hover > a {
   -webkit-box-shadow: 3px 4px 14px -1px rgba(0, 0, 0, 0.75);
-  box-shadow: 3px 4px 14px -1px rgba(62, 237, 183, 0.75);
+  box-shadow: 3px 4px 14px -1px rgba(0, 0, 0, 0.75);
   border: 1px solid #ffffff;
   background: #000000;
   color: #fff;
