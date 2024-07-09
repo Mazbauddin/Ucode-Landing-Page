@@ -582,6 +582,7 @@ b {
 .about-wrapper:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
+  border: 1px solid transparent;
 }
 
 .about-wrapper > p {
