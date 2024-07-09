@@ -571,7 +571,6 @@ b {
 .about-wrapper {
   padding: 50px;
   cursor: pointer;
-  border: 1px solid #dbdbdb;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   -webkit-box-shadow: 0 5px 30px -6px #ccc;
@@ -582,7 +581,6 @@ b {
 .about-wrapper:hover {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid transparent;
 }
 
 .about-wrapper > p {
@@ -1061,10 +1059,12 @@ b {
 }
 
 .single-team .social-icon li a:hover {
-  /* background: #fff; */
-  color: #f5550b;
-  -webkit-transform: rotate(-360deg);
+  color: #000000;
   transform: rotate(-360deg);
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
 }
 
 .single-team:hover .social-icon {
