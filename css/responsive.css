@@ -1,0 +1,466 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*common css*/
+    .btn.brand-btn {
+        padding: 15px 0px;
+    }
+
+    .brand-btn-2 {
+        padding: 15px 20px;
+    }
+
+    .get-it .btn.brand-btn {
+        font-weight: 400;
+        width: 130px;
+    }
+
+    .heading-title > h2 {
+        font-size: 35px;
+    }
+
+    .heading-title-2 > h2 {
+        font-size: 35px;
+    }
+
+    /*  header part start*/
+    .menubar ul li a {
+        font-size: 13px;
+        margin: 0 2px;
+    }
+
+    .menubar ul a {
+        padding: 0;
+    }
+
+
+    /*    submenu part*/
+    .menubar ul li ul.submenu li a {
+        font-size: 13px;
+    }
+
+    .menubar ul li ul.submenu {
+        width: 120px;
+    }
+
+    /*  header part end*/
+    /*    banner part start*/
+    .banner-content > h1 {
+        padding-top: 50px;
+        font-size: 50px;
+    }
+
+    .banner-content > h2 {
+        font-size: 30px;
+    }
+
+    .mobile-img > img {
+        height: 350px;
+    }
+
+    /*    banner part end*/
+    /*    about part start*/
+    .about-wrapper {
+        padding: 30px 15px;
+    }
+
+    .about-wrapper h3 {
+        font-size: 18px;
+    }
+
+    /*    about part end*/
+    /*    features part start*/
+
+
+    /*    features part end*/
+    /*    price part start*/
+    .price-info {
+        padding: 10px 10px 35px;
+    }
+
+    .price-box h4 {
+        font-size: 20px;
+    }
+
+    .price-box > h3 {
+        font-size: 30px;
+    }
+
+    .price-info li {
+        line-height: 35px;
+        font-size: 14px;
+    }
+
+    /*    price part end*/
+    /*    faq part start*/
+    .faq-wrapper h5 .btn.btn-link {
+        font-size: 15px;
+    }
+
+    .card-body {
+        font-size: 14px;
+    }
+
+    /*    faq part end*/
+    /*    blog part start*/
+    .blog-info a h3 {
+        font-size: 17px;
+    }
+
+    .blog-info p {
+        font-size: 14px;
+    }
+
+    .blog-media span {
+        font-size: 13px;
+    }
+
+    .blog-media i {
+        margin-right: 2px;
+        font-size: 12px;
+    }
+
+    .read {
+        font-size: 14px;
+    }
+
+    .mrc {
+        margin-right: 10px;
+    }
+
+    /*    blog part end*/
+    /*    footer part start*/
+
+    /*    footer part end*/
+
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+
+    /*    common css*/
+    .heading-title h2,
+    .heading-title-2 > h2 {
+        font-size: 30px;
+    }
+
+    .btn.brand-btn {
+        font-size: 13px;
+    }
+
+    .brand-btn-2 {
+        font-size: 13px;
+        padding: 13px 15px;
+    }
+
+    .btn.brand-btn.re-m {
+        width: 130px;
+    }
+
+    /*    header part*/
+    .main-menu .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .main-menu .navbar-nav .nav-item .nav-link:hover,
+    .main-menu .navbar-nav .nav-item .nav-link.active {
+        color: #000;
+    }
+
+    .main-menu .navbar-nav .nav-item .nav-link {
+        line-height: 25px;
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+
+    .main-menu .navbar-nav .nav-item .nav-link.active::before,
+    .main-menu .navbar-nav .nav-item .nav-link:hover::before {
+        background: none;
+    }
+
+    .main-menu .navbar-nav {
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px 0;
+    }
+
+    /*    submenu part*/
+    .main-menu .navbar-nav .nav-item ul.submenu li a {
+        font-size: 13px;
+    }
+
+    .main-menu .navbar-nav .nav-item ul.submenu {
+        width: 120px;
+    }
+
+
+    /*    banner part start*/
+    .banner-content > h1 {
+        font-size: 35px;
+        padding-top: 40px;
+    }
+
+    .banner-content > h2 {
+        font-size: 20px;
+    }
+
+    .banner-content > p {
+        font-size: 13px;
+    }
+
+    /*    banner part end*/
+    /*    about part start*/
+    .about-wrapper {
+        padding: 30px 15px;
+    }
+
+    .about-wrapper h3 {
+        font-size: 17px;
+    }
+
+    .about-wrapper > p {
+        font-size: 13px;
+    }
+
+    .about-wrapper > p {
+        font-size: 13px;
+    }
+
+    /*    about part end*/
+    /*    features part start*/
+    .features-mobile-img {
+        height: 284px;
+        margin-top: 0;
+    }
+
+    .features-mobile-img .shape-text h4 {
+        font-size: 25px;
+        margin-bottom: 4px;
+    }
+
+    .features-mobile-img .shape-text p {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    /*    features part end*/
+    /*    price area start*/
+    .price-wrapper:hover {
+        -webkit-transform: none;
+        transform: none;
+    }
+
+    /*    price area end*/
+    /*    video start*/
+    .watch {
+        font-size: 18px;
+    }
+
+    /*    video end*/
+    /*    blog part start*/
+    .blog-info a h3 {
+        font-size: 20px;
+    }
+
+    .mrc {
+        margin-right: 5px;
+    }
+
+    /*    blog part end*/
+    /*    counter area start*/
+    .counter-item > span {
+        margin-bottom: 15px;
+        display: inline-block;
+    }
+
+    /*    counter area end*/
+    /*    faq area start*/
+    .btn.btn-link.collapsed {
+        font-size: 13px;
+    }
+
+    .btn.btn-link {
+        font-size: 13px;
+    }
+
+    .card-body {
+        font-size: 13px;
+    }
+
+    .faq-img > img {
+        height: 350px;
+    }
+
+    /*    testimonial area start*/
+    .testimonial-info > h4 {
+        font-size: 20px;
+    }
+
+    .testimonial-info > span {
+        font-size: 16px;
+    }
+
+    .testimonial-details p {
+        font-size: 13px;
+    }
+
+    /*    blog area start*/
+    .blog-info p {
+        font-size: 14px;
+    }
+
+    /*    footer part start*/
+    .form-footer form .input-text {
+        font-size: 14px;
+    }
+
+    .footer-social-media {
+        padding: 0px;
+    }
+
+    .footer-copyright > p {
+        font-size: 13px;
+        padding: 20px 0 0px;
+    }
+
+    .back-to-top {
+        bottom: 45px;
+    }
+
+    /*    footer part end*/
+}
+
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    /*    common css*/
+    .heading-title h2,
+    .heading-title-2 > h2 {
+        font-size: 30px;
+    }
+
+    .btn.brand-btn {
+        font-size: 13px;
+    }
+
+    .brand-btn-2 {
+        font-size: 13px;
+        padding: 13px 15px;
+    }
+
+
+    /*    header part start*/
+    .main-menu .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .main-menu .navbar-nav .nav-item .nav-link:hover,
+    .main-menu .navbar-nav .nav-item .nav-link.active {
+        color: #000;
+    }
+
+    .main-menu .navbar-nav .nav-item .nav-link {
+        line-height: 25px;
+        text-align: center;
+        display: block;
+        color: #fff;
+    }
+
+    .main-menu .navbar-nav .nav-item .nav-link.active::before,
+    .main-menu .navbar-nav .nav-item .nav-link:hover::before {
+        background: none;
+    }
+
+    .main-menu .navbar-nav {
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 20px 0;
+    }
+
+    /*    banner part start*/
+    .banner-content > h1 {
+        padding-top: 50px;
+        font-size: 40px;
+    }
+
+    .banner-content > h2 {
+        font-size: 25px;
+    }
+
+    /*    banner part end*/
+
+    /*    features part start*/
+
+    .features-mobile-img {
+        height: 416px;
+    }
+
+    .features-mobile-img .shape-text h4 {
+        font-size: 25px;
+        margin-bottom: 4px;
+    }
+
+    .features-mobile-img .shape-text p {
+        font-size: 20px;
+        margin-bottom: 6px;
+    }
+
+    /*    features part start*/
+
+    /*    blog part start*/
+    .blog-info a h3 {
+        font-size: 20px;
+    }
+
+    .mrc {
+        margin-right: 5px;
+    }
+
+    /*    blog part end*/
+
+    /*    counter area start*/
+    .counter-item > span {
+        font-size: 15px;
+    }
+
+    .counter-item > h2 {
+        font-size: 25px;
+    }
+
+    .counter-item i {
+        font-size: 50px;
+    }
+
+    /*    footer part start*/
+    .form-footer form .input-text {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .footer-meta > h3 {
+        font-size: 22px;
+    }
+
+    .widgets span {
+        font-size: 14px;
+    }
+
+    .footer-social-media ul li a {
+        font-size: 16px;
+        margin-right: 5px;
+        width: 24px;
+    }
+
+    .footer-copyright > p {
+        font-size: 15px;
+    }
+
+    /*    footer part end*/
+
+}
